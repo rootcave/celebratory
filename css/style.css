@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700,900);
+
+html, body {
+    font-family: "Titillium Web";
+    font-size: 16px;
+    height: 100%;
+    background: #EFEAEA
+}
+
+.header {
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 6em;
+    margin: 25%;
+}
+
+.navbar-brand>img {
+    display: block;
+    max-width: 130px;
+}
+
+.navbar-default {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2D2D2D;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-right: 2px solid #888;
+    padding: 0px 29px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin: 45px 0 0;
+}
+
+header.header {
+    background-image: url("../images/home/header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%
+}
+.white {
+    color: white;
+}
+.story {
+    background-image: url("../images/home/Celebratory-homeNew_02.jpg");
+    background-size: cover;
+    line-height: 1.5;
+}
+
+.padding-section {
+    padding: 100px 0 130px;
+}
+
+.plan {
+    background-image: url("../images/home/planning_production.gif");
+    background-size: cover;
+}
+
+.plan h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.cele {
+    background-image: url("../images/home/before_footer.gif");
+    background-size: cover;
+    line-height: 1.5;
+}
+
+.cele .col-sm-6:first-of-type {
+    border-right: 2px solid #fff;
+}
+
+.cele p {
+    padding: 0 15px;
+}
+
+.before-footer {
+    background-image: url("../images/home/footer.jpg");
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    font-size: 2em;
+    padding: 0 0px;
+    color: #fff;
+    /* background: #000; */
+    /* width: 50px; */
+    /* height: 50px; */
+    text-align: center;
+}
+
+.social .fa {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #00f;
+    text-align: center;
+    line-height: 50px;
+}
+
+body section {
+    border-top: 5px solid #fff;
+}
+
+.school h2 {
+    font-size: 40px;
+    color: #DD610E;
+}
+
+.tomo {
+    background-image: url("../images/services/p1.jpg");
+    background-size: cover;
+}
+
+h2.title {
+    font-size: 40px;
+}
+
+.great {
+    background-image: url("../images/services/p2.jpg");
+    background-size: cover;
+}
+
+.pirate {
+    background-image: url("../images/services/p3.jpg");
+    background-size: cover;
+}
+
+.india {
+    background-image: url("../images/services/p4.jpg");
+    background-size: cover;
+}
+
+.great2 {
+    background-image: url("../images/services/p5.jpg");
+    background-size: cover;
+}
+
+
+
+.pirate2 {
+    background-image: url("../images/services/p6.jpg");
+    background-size: cover;
+}
+
+.padding-right {
+    padding-right: 2px;
+}
+
+.padding-left {
+    padding-left: 2px;
+}
+
+.school h1, .team h1 {
+    color: #EF832F;
+}
+
+.school p, .team p {
+    line-height: 1.8;
+}
+
+h3.name {
+    color: #EF812A;
+}
+
+p.desc {
+    color: #888;
+    line-height: 1.4;
+}
+
+.team .col-sm-6 {
+    overflow: hidden
+}
+
+#hiring .header, #contact .header {
+    height: auto
+}
+
+.hiri {
+    background-image: url("../images/hiring/Celebratory-HIRING_02.jpg");
+    background-size: cover;
+}
+
+.hiri h2 span {
+/*    border-right: 2px solid #fff;*/
+    padding: 35px;
+}
+
+.contact {
+    background-image: url("../images/home/Celebratory-homeNew_02.jpg");
+    background-size: cover;
+}
+
+.contact input {
+    margin: 5px auto;
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+.contact input.form-control.btn {
+    background: rgba(0, 0, 0, 0.65);
+}
