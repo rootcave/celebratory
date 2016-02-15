@@ -234,4 +234,6 @@ $(document).ready(function () {
         },
         type: 'image' // this is a default type
     });
+
+
 });

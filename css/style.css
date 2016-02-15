@@ -221,3 +221,7 @@ p.desc {
 body#services {
     cursor: pointer
 }
+
+.contact input::-webkit-input-placeholder {
+    color: #fff
+}
