@@ -80,6 +80,12 @@ header.header {
 
 .cele p {
     padding: 0 15px;
+    opacity: 0;
+    transition: all 0.5s
+}
+
+.cele:hover p {
+    opacity: 1;
 }
 
 .before-footer {
@@ -224,4 +230,13 @@ body#services {
 
 .contact input::-webkit-input-placeholder {
     color: #fff
+}
+
+.story:hover p {
+    opacity: 1;
+}
+.story p {
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center
 }
