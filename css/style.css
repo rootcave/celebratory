@@ -16,6 +16,12 @@ header h1 {
     margin: 25%;
 }
 
+span.first{
+	margin-left: 54px;
+}
+span.middle{
+    margin-left: 150px;}
+
 .navbar-brand>img {
     display: block;
     max-width: 130px;
